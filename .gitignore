@@ -1,0 +1,4 @@
+node_modules
+coverage
+local.database.sqlite3
+test.database.sqlite3
