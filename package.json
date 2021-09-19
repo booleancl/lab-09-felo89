@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.js",
     "sequelize": "sequelize",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
