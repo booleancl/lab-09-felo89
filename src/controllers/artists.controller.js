@@ -10,7 +10,7 @@ module.exports = {
   
       console.log(`GET with status code ${statusCode} in /api/v1/artist endpoint`)
   
-      response
+      return response
         .status(statusCode)
         .json(artists)
   
@@ -20,7 +20,7 @@ module.exports = {
   
       console.error(`GET with status code ${statusCode} in /api/v1/artist endpoint. Error: ${message}`)
       
-      response
+      return response
         .status(statusCode)
         .json({ message })
     }
